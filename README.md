@@ -1,9 +1,9 @@
-# homebridge-mqtt-temperature
-Get Temperature Sensor data via MQTT in Homebridge
+# homebridge-mqtt-co2
+Get CO2 data via MQTT in Homebridge
 
 Installation
 --------------------
-    sudo npm install -g homebridge-mqtt-temperature
+    sudo npm install -g homebridge-mqtt-co2
 
 
 Sample HomeBridge Configuration
@@ -20,10 +20,10 @@ Sample HomeBridge Configuration
 
       "accessories": [
         {
-          "accessory": "mqtt-temperature",
-          "name": "Living Room Temperature",
+          "accessory": "mqtt-co2",
+          "name": "Living Room CO2",
           "url": "mqtt://localhost",
-          "topic": "home/livingroom/temperature",
+          "topic": "home/livingroom/co2",
           "username": "username",
           "password": "password"
         }
@@ -32,9 +32,9 @@ Sample HomeBridge Configuration
       "platforms": []
     }
 
-
----------------------
-#### Credits
+----
+####  Credits
+[homebridge-mqtt-temperature](https://github.com/mcchots/homebridge-mqtt-temperature)
 
 [homebridge-mqttswitch](https://github.com/ilcato/homebridge-mqttswitch)
 

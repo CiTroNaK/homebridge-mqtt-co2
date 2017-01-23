@@ -1,21 +1,21 @@
 {
-  "name": "homebridge-mqtt-temperature",
+  "name": "homebridge-mqtt-co2",
   "version": "0.1.2",
-  "description": "A HomeBridge plugin for MQTT temperature sensors.",
+  "description": "A HomeBridge plugin for MQTT CO2 sensors.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcchots/homebridge-mqtt-temperature.git"
+    "url": "git+https://github.com/CiTroNaK/homebridge-mqtt-co2.git"
   },
   "files": [
     "index.js",
     "README.md"
   ],
   "keywords": [
-    "homebridge-plugin","mqtt","temperature"
+    "homebridge-plugin","mqtt","co2"
   ],
   "engines": {
     "node": ">=0.12.0",
@@ -24,11 +24,10 @@
   "author": "mcchots",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mcchots/homebridge-mqtt-temperature/issues"
+    "url": "https://github.com/CiTroNaK/homebridge-mqtt-co2/issues"
   },
-  "homepage": "https://github.com/mcchots/homebridge-mqtt-temperature#readme",
+  "homepage": "https://github.com/CiTroNaK/homebridge-mqtt-co2#readme",
   "dependencies": {
     "mqtt": "^1.12.0"
-  },
-  "devDependencies": {}
+  }
 }
