@@ -1,6 +1,6 @@
 {
   "name": "homebridge-mqtt-co2",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A HomeBridge plugin for MQTT CO2 sensors.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "node": ">=0.12.0",
     "homebridge": ">=0.2.0"
   },
-  "author": "mcchots",
+  "author": "citronak",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CiTroNaK/homebridge-mqtt-co2/issues"
